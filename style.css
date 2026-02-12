@@ -44,7 +44,6 @@ body {
     transition: transform 0.6s ease-in-out, z-index 0.1s 0.3s;
     z-index: 2;
     text-align: center;
-    text-align: arial, sans;
 }
 
 .envelope-front {
