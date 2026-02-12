@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Envelope with Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="envelope-wrapper" id="envelope">
+            <div class="top-flap"></div>
+            <div class="envelope-front"></div>
+            
+            <div class="letter">
+                <h2>Happy Valentine’s Day!</h2>
+                <p>I really like you, and I hope this Valentine’s brings us closer💗</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="musicBtn" class="music-btn">🎵 Play Music</button>
+            <audio id="bgMusic" loop>
+                <source src="sasabihin-ko-na-wilbert-ross.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+        <div class="instruction">Click the envelope to open</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
